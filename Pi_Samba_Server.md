@@ -1,17 +1,17 @@
 <html>
-<h4>You will need:</h4>
+<h2>You will need:</h2>
 <p>A storage medium (i.e. flash drive, sd card or ssd/hd), Raspberry pi, and a computer. Keyboard and wifi optional.</p>
 <hr/>
 <p>Download Raspberry Pi Imager from their website or from your package manager. Plug in your storage medium and boot up RPI-Imager.</p>
 <p>Download, configure (The gear button on the bottom right) making sure to enable SSH (Unless you have a keyboard and monitor) and install Raspberry Pi OS, No Desktop, 32 bit to your storage medium.</p>
-<h6>If you don't have a keyboard and monitor attached to the pi:</h6>
+<h4>If you don't have a keyboard and monitor attached to the pi:</h4>
 <p>Download nmap by running <pre><code>sudo apt install nmap | sudo pacman -S nmap</pre></code></p> 
 <p>Next run <pre><code>ip a</pre></code> and make note of your ip address (0.0.0.0-255.255.255.255) then run <pre><code>nmap x.x.x.0/24</pre></code> replacing x's with your ip address.</p>
 <p>Make note of the last few digits of each ip, or leave it on your terminal and dont clear it.<p>
 <p>Plug in your storage medium to the pi and/or reboot. The pi will run a few programs then reboot twice.</p>
 <p>Run the same nmap command again, the new address should be your Pi.</p>
 <p>SSH into the pi by running <pre><code>ssh pi@x.x.x.x</pre></code> where x is the pi's address you just discovered</p>
-<h6>If you do:</h6>
+<h4>If you do:</h4>
 <p>Connect everything and boot up. It will reboot twice and then prompt you for login.</p>
 <br/>
 <p>Next run:</p>
