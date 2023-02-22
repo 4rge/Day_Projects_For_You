@@ -32,6 +32,6 @@ browsable = yes</pre></code>
 <p>Next run:</p>
 <pre><code>smbpasswd -a <username><pre><code>
 <p>And set a password</p>
-<p>Last run: <pre><code>sudo service smbd restart && sudo systemctl enable smbd<pre><code>
+<p>Last run: <pre><code>sudo service smbd restart && sudo systemctl enable smbd</pre></code>
 <p>You can now unplug any monitors or keyboards and find a comfey place in your house to set the pi up at. Any time you need you can go to "Browse Network" in your file manager and access your samba server.</p>
 </html>
