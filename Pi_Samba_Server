@@ -37,3 +37,4 @@ browsable = yes```
 <p>Last run: ```sudo service smbd restart && sudo systemctl enable smbd```
 
 <p>You can now unplug any monitors or keyboards and find a comfey place in your house to set the pi up at. Any time you need you can go to "Browse Network" in your file manager and access your samba server.</p>
+</html>
